@@ -8,5 +8,5 @@ for(int i=0;i<numsSize-1;i++){
         }
     }
 }
-    return nums[numsSize-k];
+   
 }
