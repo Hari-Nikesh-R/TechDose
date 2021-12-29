@@ -4,7 +4,7 @@ class Solution:
         parentheses = {'[': ']', '{': '}', '(': ')'}
 
         for item in s:
-	        if item not in parentheses:
+		if item not in parentheses:
 		        if stack:
 			        if parentheses[stack[-1]] == item:
 				         stack.pop()
