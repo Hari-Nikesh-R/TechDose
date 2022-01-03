@@ -1,4 +1,5 @@
-   public int[][] merge_intervals(int[][] intervals) {
+class Solution {
+    public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (int[] a, int[] b) -> a[0] - b[0]);
         int rows = intervals.length;
         LinkedList<int[]> m = new LinkedList<>();
@@ -20,3 +21,4 @@
         }
         return m.toArray(new int[m.size()][]);
     }
+}
