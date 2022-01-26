@@ -1,4 +1,3 @@
-// URL : https://leetcode.com/problems/design-hashmap/
 
 import java.util.ArrayList;
 import java.util.List;
